@@ -44,15 +44,95 @@
         <hr>
         <div class="question6">
             <p class="bold">Q6. Add one style attribute and give text color as red and id attribute and give the id value as "heading" in the above given h1 tag using DOM functions</p>
+            <p class="inline">ANS => </p><h1 id="heading" class="inline" > Hello</h1>
+        </div>
+        <hr>
+        <div class="question7">
+            <p class="bold">Q7: Create three cards on HTML page and arrange them using flex property in row or horizontal direction and also create button at the bottom named "Change Flex direction". When user clicks on this button, the cards arrangement should be changed to vertical direction.</p>
+            <p>ANS =></p>
+
+            <button onclick="changeStyle()" class="btn-1">Change flexDirection</button>
+            <div class="parent">
+                <div class="child"></div>
+                <div class="child"></div>
+                <div class="child"></div>
+                <div class="child"></div>
+            </div>
+        </div>
+        <hr>
+        <div class="question8">
+            <p class="bold"> Q8 : What’s the difference between window vs document?</p>
+            <p>ANS =></p>
+            <table>
+                <tr>
+                    <th>window</th>
+                    <th>Document</th>
+                </tr>
+                <tr>
+                    <td>1. It represents the browser window in which you are seeing the content.</td>
+                    <td>1. It represents the document loaded inside the window or browser.</td>
+                </tr>
+                <tr>
+                    <td>2. The properties related to it are stored in the window object</td>
+                    <td>2. The properties related to it are stored in the document object.</td>
+                </tr>
+                <tr>
+                    <td>3. It is loaded before the document because of the window container document.	</td>
+                    <td>3. It is loaded after the loading window because the window contains a document.</td>
+                </tr>
+                <tr>
+                    <td>4. The window is the global element for all objects, functions, etc.</td>
+                    <td>4. It is the root element of the document object model.</td>
+                </tr>
+                <tr>
+                    <td>5. It is an object of the browser.	</td>
+                    <td>5. It is an object of the window.   </td>
+                </tr>
+                <tr>
+                    <td>6. We can access document object properties inside the window.</td>
+                    <td>6. We can not access windows objects properties inside the document.</td>
+                </tr>
+                <tr>
+                    <td>7. Example: window.document.title will return the title of the document.	</td>
+                    <td>7. Example: document.title will return the title of the document
+                    </td>
+                </tr>
+                <tr>
+                    <td><pre>
+        8.
+                logically:
+                                
+                        window:{
+                                   document:{properties}
+                            }
+                    </pre></td>
+                    <td>
+                        <pre>
+        8. 
+                logically:
+                    
+                    document:{ properties}
+                        </pre>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+        <div class="question9">
+            <p class="bold">Q9 :Write code to implement timer clock using JS -- display HH:MM:SS -- the time should keep updating every second</p>
+            <p class="inline">ANS =></p>
+            <h1 class="clock inline "></h1>
+        </div>
+        <hr>
+        <div class="question10">
+            <p>Q10 : Guess My No Game</p>
+            <p>ANS => <span><a href="./">Link To Guess MY Number</a></span></p>
         </div>
 
 
 
 
     </div>
-    
-    <h1 class="change">hello</h1>
-
     <script src="./script.js"></script>
 </body>
 </html>

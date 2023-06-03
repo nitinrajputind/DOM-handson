@@ -2,11 +2,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    line-height: 30px;
 }
 body{
-    background-color: aqua;
+    /* background-color: #D6A2E8; */    
 }
 .header{
+    margin-top: 50px;
     text-align: center;
     font-size: 40px;
     color: blue;
@@ -23,8 +25,7 @@ hr{
     margin-right: 50px;
 }
 .inline{
-    display: inline-block; 
-    font-size: 18px; 
+    display: inline-block;
 }
 .bold{
     font-weight: 700;
@@ -52,4 +53,28 @@ hr{
     font-size: 20px;
     margin: 20px 50px;
 }
+.parent{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    gap: 50px;
+    justify-content: center;
+}
+.child{
+    width: 200px;
+    height: 150px;
+    background-color: #FC427B;
+    box-shadow: 0  0 10px #FC427B;
+
+}
+
+table , tr, td, th {
+    border: 2px solid #000;
+    border-collapse: collapse;
+    width: 90vw;
+    padding: 10px;
+    justify-content: center;
+    margin: auto;
+}
+
 
